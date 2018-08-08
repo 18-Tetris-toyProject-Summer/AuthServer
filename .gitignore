@@ -1,0 +1,14 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+.DS_Store
+
+target/
+out/
+lib/
+
+.metadata/
+.recommenders/
