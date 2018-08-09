@@ -6,6 +6,8 @@
 
 .DS_Store
 
+config.properties
+
 target/
 out/
 lib/
