@@ -1,6 +1,6 @@
 # Spring Auth Server
-네이버 아이디로 로그인 연동 및 JWT, ip 비교 인증 
-> 테트리스 토이프로젝트 인증용 Spring Back-end <br/>
+테트리스 토이프로젝트 인증용 Spring Back-end
+> 네이버 아이디로 로그인 연동 및 JWT 발급, ip 비교 인증<br/>
 > 모바일(ip)은 고려하지 않았습니다.
 
 ## 개발 일지
