@@ -5,24 +5,14 @@ import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.io.ResourceLoader;
-import org.springframework.expression.spel.ast.NullLiteral;
-import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import org.yaml.snakeyaml.Yaml;
-
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLEncoder;
 import java.util.Date;
-import java.util.HashMap;
 
 @CrossOrigin(origins = "*")
 @Controller
